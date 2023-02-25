@@ -97,7 +97,8 @@ id="emailType">info@nasia.ai</a></p>
 <div class="container">
 <div class="row">
 <div class="col-md-12 text-center">
-<p>{t("COPYRIGHT © 2023 NASIA - ALL RIGHTS RESERVED")}</p>
+<p>{t("COPYRIGHT © 2023 NASIA - ALL RIGHTS RESERVED | Made with ❤ by NASIA AI")}</p>
+
 </div>
 </div>
 </div>
