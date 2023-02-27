@@ -79,17 +79,23 @@ const AboutUs = () => {
             <div className="face2">
               <img src={Opencv} style={{
                 width:'100px'
-              }} />
+              }} 
+              alt="opencv"
+              />
             </div>
             <div className="face3">
             <img src={Scala} style={{
                 width:'100px'
-              }} />
+              }} 
+              alt="scala"
+              />
             </div>
             <div className="face4">
             <img src={Java} style={{
                 width:'100px'
-              }} />
+              }}
+              alt="java"
+              />
             </div>
             <div className="face5">
               <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />

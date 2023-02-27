@@ -91,7 +91,9 @@ export const MainSection = ({dot,setDot}) => {
                   marginTop:'-0.9rem'
                 }}>
  <ReactFlagsSelect
-            placeholder={<img src={Language} />}
+            placeholder={<img src={Language} 
+            alt="Language"
+            />}
  id="flags-select"
  className="innerClass"
  selectedSize={26}
