@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/img/logo.svg';
+import logo from '../assets/img/logo2.png';
 import {useTranslation} from 'react-i18next'
 import i18next from "i18next"
 import ReactFlagsSelect from "react-flags-select";
@@ -59,7 +59,12 @@ export const MainSection = ({dot,setDot}) => {
       >
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
+            <img src={logo} alt="Logo"
+            style={{
+              width:'150%',
+              paddingLeft : document.body.dir === "rtl" && '25%'
+            }}
+            />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>

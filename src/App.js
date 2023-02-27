@@ -13,7 +13,7 @@ function App() {
   const [dot, setDot] = React.useState(false);
   React.useEffect(()=>{
      const language = localStorage.getItem('dataKey')
-     if((language)!='US'){
+     if(language!='US'){
        i18next.changeLanguage('ko')
        document.body.dir = "rtl"
      }
